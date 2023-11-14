@@ -1,1 +1,1 @@
-                _**IF you fail to plan, you plan to fail.**_
+                IF you fail to plan, you plan to fail.
