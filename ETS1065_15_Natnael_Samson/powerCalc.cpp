@@ -1,3 +1,4 @@
+// This program calculates the result of raising a given number (x) to a specified power (y).
 #include <iostream>
 #include <cmath>
 using namespace std;
