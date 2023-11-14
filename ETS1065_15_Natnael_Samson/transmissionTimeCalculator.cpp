@@ -1,3 +1,4 @@
+// File Transmission Time Calculator: Calculates the time to transmit a file based on its size and a fixed transmission rate.
 #include <iostream>
 using namespace std;
 int main() {
