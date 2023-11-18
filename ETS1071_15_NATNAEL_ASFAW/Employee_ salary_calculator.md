@@ -36,24 +36,3 @@ B.) Algorithm Design:
    - `Bonus Payment = Weekly Working Hours * Bonus Rate per Hour`
 8. Display employee name, gross salary, net salary, and bonus payment.
 9. **End**
-Pseudocode:
-START
-
-1. INPUT employeeName (Prompt for employee's name)
-2. INPUT weeklyWorkingHours (Prompt for weekly working hours)
-3. INPUT bonusRatePerHour (Prompt for bonus rate per hour)
-4. INPUT baseSalary (Prompt for base salary)
-
-5. SET grossSalary = baseSalary + (weeklyWorkingHours * bonusRatePerHour)
-6. SET pensionDeduction = grossSalary * 0.05 (5% pension deduction)
-7. SET taxDeduction = grossSalary * 0.15 (15% tax deduction)
-8. SET netSalary = grossSalary - pensionDeduction - taxDeduction
-9. SET bonusPayment = weeklyWorkingHours * bonusRatePerHour
-
-10. DISPLAY "Employee Name: employeeName"
-11. DISPLAY "Gross Salary: grossSalary"
-12. DISPLAY "Net Salary: netSalary"
-13. DISPLAY "Bonus Payment: bonusPayment"
-
-END
-
