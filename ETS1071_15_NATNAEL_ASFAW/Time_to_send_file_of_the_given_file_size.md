@@ -1,5 +1,7 @@
 A.) Problem Analysis:
-  The task requires creating a program that calculates the time needed to send a file over a serial transmission line given the file size, considering a transmission speed of 960 characters per second. The file size provided is 400MB (419,430,400 bytes), and the transmission speed is 960 characters per second. Here is the problem analysis:
+
+  The task requires creating a program that calculates the time needed to send a file over a serial transmission line given the file size, considering a transmission speed of 960 characters per second. 
+  The file size provided is 400MB (419,430,400 bytes), and the transmission speed is 960 characters per second. Here is the problem analysis:
 
 1. **Input:**
    - Transmission speed: 960 characters per second (constant value).
