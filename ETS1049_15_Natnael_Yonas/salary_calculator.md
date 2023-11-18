@@ -1,4 +1,4 @@
-A) Problem Analysis
+# Problem Analysis
     1. Input: The user is prompted to enter the employee's name. The user is prompted to enter the weekly working hours. The user is prompted 
               to enter the bonus rate per hour. The user is prompted to enter the base salary.
     2. process: The program calculates the gross salary using the formula: grossSalary = baseSalary + (weeklyHours * bonusRate). The program
@@ -6,7 +6,7 @@ A) Problem Analysis
                 0.15 * grossSalary. The program calculates the net salary as the difference between gross salary, pension, and tax: netSalary = grossSalary -
                 pension - tax. The program calculates the bonus payment as the product of weekly hours and bonus rate: bonusPayment = weeklyHours * bonusRate.
     3. output: The program displays the employee's name, gross salary, net salary, and bonus payment.
-B) Algorithm Design(Pseudo code)
+# Algorithm Design(Pseudo code)
     1. start
     2. Prompt user for input: "Enter employee name: "
     3. Read user input and store it in the variable employeeName
