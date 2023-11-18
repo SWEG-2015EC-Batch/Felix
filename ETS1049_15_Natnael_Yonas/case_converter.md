@@ -15,6 +15,6 @@
    7.  End program
 # flowchart
 
----mermaid
+```mermaid
 graph TD;
 ([Start]) --> [/Enter a letter/];
