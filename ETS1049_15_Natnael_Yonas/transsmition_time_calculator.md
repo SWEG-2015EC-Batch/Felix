@@ -11,3 +11,8 @@
     5. Calculate transmissionTime using the formula: transmissionTime = fileSizeInCharacters / transmissionRate
     6. Display "Time required to transmit the file: ", transmissionTime, " seconds"
     7. End program
+# Flowchart
+```mermaid
+flowchart TD;
+A([Start]) --> B[/Enter the file size in bytes:/];
+B--> C;
