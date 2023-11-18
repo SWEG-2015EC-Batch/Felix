@@ -26,3 +26,11 @@ B.)Aligorithm Design:
 6. Display the calculated time to the user.
 7. **End**
 
+#Flowchart
+``` mermaid
+flowchart TD;
+A([Start]) --> B[/Enter the file size in bytes:/];
+B--> C["transmissionTime = fileSizeInCharacters / transmissionRate"];
+C --> D[/'Time required to transmit the file:' transmissionTime/];
+D --> E([End]);
+```
