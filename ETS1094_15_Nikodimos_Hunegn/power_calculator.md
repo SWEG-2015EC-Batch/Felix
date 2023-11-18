@@ -16,7 +16,12 @@ This program calculates the result of raising a given base to a specified power.
     8. Display 'base', " raised to the power of ", 'power', " is ", 'result'
     9. End
 
+#### FlowChart
 
-
-
-
+```mermaid
+graph TD;
+A([Start]) --> B[/"Receive base and power"/];
+B --> C["Calculate Base raised to power"];
+C --> D[/"Display result"/];
+D --> E([End]);
+```
