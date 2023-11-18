@@ -17,8 +17,8 @@
 ```mermaid
 graph TD;
 A([Start]) --> B[/Enter your weight in kilograms/];
-B --> C[/Enter your height in meters/];
-C --> D[BMI = body_weight / (height * height)];
-D --> E[/Your BMI is/];
-E --> F([End]);
+B[/Enter your weight in kilograms/] --> C[/Enter your height in meters/];
+ C[/Enter your height in meters/] --> D[BMI = body_weight / (height * height)];
+ D[BMI = body_weight / (height * height)] --> E[/Your BMI is/];
+ E[/Your BMI is/] --> F([End]);
 ```
