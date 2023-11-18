@@ -16,5 +16,5 @@
 # flowchart
 
 ---mermaid
-graph TD,
+graph TD;
 ([Start]) --> [/Enter a letter/];
