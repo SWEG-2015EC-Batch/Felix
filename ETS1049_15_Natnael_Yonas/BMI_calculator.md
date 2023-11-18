@@ -12,13 +12,13 @@
     6. Calculate BMI using the formula: BMI = body_weight / (height * height)
     7. Display "Your BMI is " followed by the calculated BMI
     8. End program
-# flowchrt
+# flowchart
 
 ```mermaid
 flowchart TD;
-A([Start]) -->B[/Enter your weight in kilograms/];
-B[/Enter your weight in kilograms/] -->C[/Enter your height in meters/];
-C[/Enter your height in meters/] -->D[BMI = body_weight / (height * height)];
-D[BMI = body_weight / (height * height)] -->E[/Your BMI is/];
-E[/Display Your BMI/] -->F([End]);
+A([Start]) --> B[/Enter your weight in kilograms/]
+B --> C[/Enter your height in meters/]
+C --> D[BMI = body_weight / (height * height)]
+D --> E[/Your BMI is/]
+E --> F([End])
 ```
