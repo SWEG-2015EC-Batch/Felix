@@ -1,5 +1,7 @@
 A.) Problem Analysis:
-The problem requires designing an algorithm and a program to calculate an employee's gross salary, net salary, and bonus payment based on the provided information: employee name, weekly working hours, bonus rate per hour, and base salary. Additionally, the problem hints at considering a pension rate of -5% and a tax rate of 15%. Here's the analysis:
+
+The problem requires designing an algorithm and a program to calculate an employee's gross salary, net salary, and bonus payment based on the provided information: 
+employee name, weekly working hours, bonus rate per hour, and base salary. Additionally, the problem hints at considering a pension rate of -5% and a tax rate of 15%. Here's the analysis:
 
 1. **Input:**
    - Employee name: String input.
