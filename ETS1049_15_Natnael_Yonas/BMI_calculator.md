@@ -17,7 +17,7 @@
 graph TD;
 A([Start]) --> B[/Enter your weight in kilograms/];
 B --> C[/Enter your height in meters/];
-C --> D[BMI = body_weight / (height * height)]
-D --> E[/Your BMI is/]
+C --> D[BMI = body_weight / (height * height)];
+D --> E[/Your BMI is/];
 E --> ([End])
 
