@@ -7,12 +7,14 @@
     1. Start
     2. Prompt user for input: "Enter the file size in bytes: " 
     3. Read user input and store it in the variable fileSizeInBytes
-    4. Set fileSizeInCharacters to fileSizeInBytes
-    5. Calculate transmissionTime using the formula: transmissionTime = fileSizeInCharacters / transmissionRate
-    6. Display "Time required to transmit the file: ", transmissionTime, " seconds"
-    7. End program
+    4. Calculate transmissionTime using the formula: transmissionTime = fileSizeInCharacters / transmissionRate
+    5. Display "Time required to transmit the file: ", transmissionTime, " seconds"
+    6. End program
 # Flowchart
 ```mermaid
 flowchart TD;
 A([Start]) --> B[/Enter the file size in bytes:/];
-B--> C[BMI = body_weight];
+B--> C["transmissionTime = fileSizeInCharacters / transmissionRate"];
+C --> D[/'Time required to transmit the file:' transmissionTime/];
+D --> E([End]);
+```
