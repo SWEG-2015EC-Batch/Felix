@@ -17,4 +17,4 @@
 
 ```mermaid
 graph TD;
-([Start]) --> [/Enter a letter/];
+A([Start]) --> B[/Enter a letter/];
