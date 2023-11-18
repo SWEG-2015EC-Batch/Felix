@@ -36,3 +36,22 @@ B.) Algorithm Design:
    - `Bonus Payment = Weekly Working Hours * Bonus Rate per Hour`
 8. Display employee name, gross salary, net salary, and bonus payment.
 9. **End**
+
+#Flowchart
+``` mermaid
+graph TD;
+A([Start]) --> B[/"Enter employee name:
+Enter weekly working hours:
+Enter bonus rate per hour:
+Enter base salary:"/];
+B--> C["Calculate  grossSalary = baseSalary + (weeklyHours * bonusRate),
+Calculate pension = 0.05 * grossSalary,
+Calculate tax = 0.15 * grossSalary,
+Calculate  netSalary = grossSalary - pension - tax,
+Calculate bonusPayment = weeklyHours * bonusRate"];
+C--> D[/"Display 'Employee Name: ', employeeName
+ Display 'Gross Salary: $', grossSalary
+ Display 'Net Salary: $', netSalary
+ Display 'Bonus Payment: $', bonusPayment"/]
+
+```
