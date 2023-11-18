@@ -16,4 +16,4 @@
                       C) flowchart
 ---mermaid
 graph TD,
-A([Start]) --> B [/Enter a letter/];
+([Start]) --> [/Enter a letter/];
