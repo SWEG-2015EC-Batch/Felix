@@ -17,25 +17,6 @@ B.)Algorithm Design:
   5. Display the calculated BMI
   6. End
      
-Pseudocode:
-1. Start
 
-2. Declare variables:
-    weight (numeric)
-    height (numeric)
-    bmi (numeric)
-
-3. Display "Enter weight in kilograms: "
-4. Read weight from user input
-
-5. Display "Enter height in meters: "
-6. Read height from user input
-
-7. Calculate BMI:
-   bmi = weight / (height * height)
-
-8. Display "BMI is: ", bmi
-
-9. End
  
 
