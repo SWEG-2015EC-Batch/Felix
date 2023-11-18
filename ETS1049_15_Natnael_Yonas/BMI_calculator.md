@@ -13,6 +13,7 @@
     7. Display "Your BMI is " followed by the calculated BMI
     8. End program
 # flowchrt
+
 ```mermaid
 graph TD;
 A([Start]) --> B[/Enter your weight in kilograms/];
@@ -20,4 +21,4 @@ B --> C[/Enter your height in meters/];
 C --> D[BMI = body_weight / (height * height)];
 D --> E[/Your BMI is/];
 E --> F([End]);
-
+```
