@@ -20,4 +20,5 @@ A([Start]) --> B[/Enter your weight in kilograms/];
 B[/Enter your weight in kilograms/] --> C[/Enter your height in meters/];
 C[/Enter your height in meters/] --> D[BMI = body_weight / (height * height)];
 D[BMI = body_weight / (height * height)] --> E[/Your BMI is/];
-E[/Display Your BMI/] --> F([End])
+E[/Display Your BMI/] --> F([End]);
+```
