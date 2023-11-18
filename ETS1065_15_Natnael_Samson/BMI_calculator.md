@@ -22,6 +22,7 @@ The program displays the calculated Body Mass Index.
 7. Calculate BMI using the formula: BMI = body_weight / (height * height)
 8. Display "Your body mass index is " followed by the calculated BMI
 9. End program
+    
    #graph TD
   A[Display "BMI Calculator" title] --> B[Display "===========================" separator]
   B --> C[Prompt user for input: "Please enter your weight in kilograms:"]
