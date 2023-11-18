@@ -15,25 +15,3 @@ B.)Algorithm Design:
   Step7.Calculate milesPossible by multiplying tankCapacity with milesPerGallon.
   Step8.Display the calculated value of milesPossible as the number of miles the automobile can be driven without refueling.
   Step9.End
-Pseudocode:
-Start
-
-Declare variables tankCapacity, milesPerGallon, milesPossible as double
-
-Display "Enter the capacity of the fuel tank in gallons: "
-Read tankCapacity
-
-Display "Enter the miles per gallon of the automobile: "
-Read milesPerGallon
-
-milesPossible = tankCapacity * milesPerGallon
-
-Display "The automobile can be driven for " + milesPossible + " miles without refueling."
-
-End
-This algorithm design outlines the steps needed to achieve the desired functionality of the program in a structured manner, providing a clear sequence of actions to solve the problem.
-
-
-
-
-
