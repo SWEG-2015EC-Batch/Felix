@@ -11,3 +11,12 @@
     6. Calculate result using the formula: result = pow(x, y)
     7. Display x, " raised to the power of ", y, " is ", and the calculated result
     8. End program
+# Flowchart
+```mermaid
+graph TD;
+A([Start]) --> B[/Enter the value of x/];
+B--> C[/Enter the value of y/];
+C --> D[result = pow(x, y)];
+D--> E[Display x, " raised to the power of ", y, " is " result];
+E--> F([End]);
+```
