@@ -30,8 +30,8 @@
 ```mermaid
 graph TD;
 A([Start]) --> B[/Enter employee name:
-Enter weekly working hours:
-Enter bonus rate per hour
+Enter weekly working hours:;
+Enter bonus rate per hour:;
 Enter base salary:];
 
 
