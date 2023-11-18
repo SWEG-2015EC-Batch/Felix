@@ -24,9 +24,11 @@ B.) Aligorithm Design:
 8. **End**
 
 #Flowchart
+```mermaid
 graph TD;
 A([Start]) --> B[/"Enter the value of x,
 Enter the value of y"/];
 B--> D["result = pow(x, y)"];
 D--> E["'Display' x, 'raised to the power of ', y, 'is'  result"];
 E--> F([End]);
+```
