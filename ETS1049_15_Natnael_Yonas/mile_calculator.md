@@ -11,7 +11,7 @@
    5) Read user input and store it in the variable milesPerGallon
    6) Calculate miles using the formula: miles = fuelCapacity * milesPerGallon
    7) Display "The number of miles your automobiles can be driven without refuling is ." followed by the calculated miles
-#Flowchart
+# Flowchart
 ```mermaid
 graph TD;
 A([Start]) --> B[/Enter the capacity of your automobile:/];
