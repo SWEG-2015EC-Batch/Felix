@@ -26,23 +26,3 @@ B.)Aligorithm Design:
 6. Display the calculated time to the user.
 7. **End**
 
-Pseudocode:
-
-START
-
-  1. SET transmissionSpeed = 960 (characters per second)
-  2. SET fileSizeBytes = 419430400 (400MB in bytes)
-  3. SET fileSizeBits = fileSizeBytes * 8 (convert bytes to bits)
-  4. SET timeInSeconds = fileSizeBits / transmissionSpeed
-  5. SET days = timeInSeconds / (24 * 3600)
-  6. SET timeInSeconds = timeInSeconds - (days * 24 * 3600)
-  7. SET hours = timeInSeconds / 3600
-  8. SET timeInSeconds = timeInSeconds - (hours * 3600)
-  9. SET minutes = timeInSeconds / 60
-  10. SET seconds = timeInSeconds - (minutes * 60)
-  11. DISPLAY "Time required to send the file:"
-  12. DISPLAY "Days: days, Hours: hours, Minutes: minutes, Seconds: seconds"
-
-END
-
-
