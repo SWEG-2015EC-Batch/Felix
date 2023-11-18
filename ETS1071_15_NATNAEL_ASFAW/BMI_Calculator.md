@@ -1,5 +1,7 @@
 A.)Problem Analysis:
+ 
   The problem requires the development of a program in C++ that calculates the Body Mass Index (BMI) of a user given their weight in kilograms and height in meters. 
+  
   The BMI is calculated using the formula:  BMI= weight/(height*height)
 
 Input:
