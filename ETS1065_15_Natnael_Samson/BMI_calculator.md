@@ -22,8 +22,11 @@ The program displays the calculated Body Mass Index.
 7. Calculate BMI using the formula: BMI = body_weight / (height * height)
 8. Display "Your body mass index is " followed by the calculated BMI
 9. End program
+
+                     Flowchart
     
-   #graph TD
+```mermaid
+   graph TD
   A[Display "BMI Calculator" title] --> B[Display "===========================" separator]
   B --> C[Prompt user for input: "Please enter your weight in kilograms:"]
   C --> D[Read user input and store it in the variable body_weight]
@@ -32,3 +35,4 @@ The program displays the calculated Body Mass Index.
   F --> G[Calculate BMI using the formula: BMI = body_weight / (height * height)]
   G --> H[Display "Your body mass index is " followed by the calculated BMI]
   H --> I[End program]
+```
