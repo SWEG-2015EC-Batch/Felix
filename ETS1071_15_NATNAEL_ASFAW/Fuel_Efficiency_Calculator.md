@@ -5,6 +5,7 @@ A.)Problem Analysis: Calculating Automobile Range
   Miles per Gallon Efficiency: This value signifies the distance the automobile can cover per gallon of fuel.
  Output:
   The program will output the total distance the automobile can travel without refueling, based on the provided tank capacity and miles per gallon efficiency.
+  
 B.)Algorithm Design:
   Step1.Start
   Step2.Declare variables tankCapacity, milesPerGallon, and milesPossible of type double.
@@ -15,3 +16,12 @@ B.)Algorithm Design:
   Step7.Calculate milesPossible by multiplying tankCapacity with milesPerGallon.
   Step8.Display the calculated value of milesPossible as the number of miles the automobile can be driven without refueling.
   Step9.End
+#Flowchart
+``` mermaid
+graph TD;
+A([Start]) --> B[/"Enter the capacity of your automobile:,
+Enter the miles per gallon your automobile can be driven:"/];
+B --> D[miles = fuelCapacity * milesPerGallon];
+D --> E[/'The number of miles your automobiles can be driven without refuling is' miles/];
+E --> F([End]);
+```
