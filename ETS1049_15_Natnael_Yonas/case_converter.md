@@ -13,3 +13,8 @@
    5.  Else, if isupper(letter) is true:  Display "Lowercase equivalent: " followed by the lowercase of the letter
    6.  Else: Display "Invalid input. Please enter a letter."
    7.  End program
+                      C) flowchart
+---mermaid
+graph TD,
+Start --> input: Enter your Name;
+input: Enter a letter -->   
