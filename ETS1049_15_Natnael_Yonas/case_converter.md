@@ -18,7 +18,7 @@
 ```mermaid
 graph TD;
 A([Start]) --> B[/Enter a letter/];
-B--> C["`hi`"]
+B--> C["hi"]
 
 
 
