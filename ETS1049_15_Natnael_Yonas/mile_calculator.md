@@ -16,7 +16,7 @@
 graph TD;
 A([Start]) --> B[/Enter the capacity of your automobile:/];
 B --> C[/Enter the miles per gallon your automobile can be driven:/];
-C --> D[miles = fuelCapacity * milesPerGallon]
-D --> E[/Display "The number of miles your automobiles can be driven without refuling is miles"/]
-E --> F([End])
+C --> D[miles = fuelCapacity * milesPerGallon];
+D --> E[/Display "The number of miles your automobiles can be driven without refuling is miles"/];
+E --> F([End]);
 ```
