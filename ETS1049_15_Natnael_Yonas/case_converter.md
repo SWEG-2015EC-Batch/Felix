@@ -16,5 +16,5 @@
                       C) flowchart
 ---mermaid
 graph TD,
-Start --> input: Enter your Name;
-input: Enter a letter -->   
+A[Start] --> (input: Enter a letter)B;
+B --> C{check if the letter is lower case}
