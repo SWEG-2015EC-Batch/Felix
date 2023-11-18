@@ -33,17 +33,3 @@ Consider an example using the problem analysis:
 
 - **Output:**
   - The result of the expression with x = 2 and y = 3 is 8
-Psudocode:
-START
-
-1. INPUT x (Prompt the user to enter the value of x)
-2. INPUT y (Prompt the user to enter the value of y)
-3. result = 1 (Initialize result to 1)
-
-4. FOR i from 1 to y DO
-5.     result = result * x
-6. ENDFOR
-
-7. OUTPUT "Result of x^y is: result"
-
-END
