@@ -22,11 +22,11 @@ The program displays the calculated Body Mass Index.
 7. Calculate BMI using the formula: BMI = body_weight / (height * height)
 8. Display "Your body mass index is " followed by the calculated BMI
 9. End program
-
+```mermaid
 flowchart TD;
 A([Start]) --> B[/Enter your weight in kilograms/];
 B --> C[/Enter your height in meters/];
 C --> D["BMI = body_weight / (height * height)"];
 D --> E[/Print 'Your BMI is' BMI/];
 E --> F([End]);
-                     
+```                     
