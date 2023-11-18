@@ -16,6 +16,7 @@ B.)Algorithm Design:
                               BMI= weight/(height*height)
   5. Display the calculated BMI
   6. End
+     
 #Flowchart
 
 ```mermaid
