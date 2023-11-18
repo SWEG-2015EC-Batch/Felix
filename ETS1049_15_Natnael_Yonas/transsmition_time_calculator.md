@@ -15,4 +15,4 @@
 ```mermaid
 flowchart TD;
 A([Start]) --> B[/Enter the file size in bytes:/];
-B--> C[BMI = body_weight / (height * height)];
+B--> C[BMI = body_weight];
