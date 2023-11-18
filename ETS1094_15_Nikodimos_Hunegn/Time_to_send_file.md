@@ -24,3 +24,25 @@ This program calculates the time required to transmit a file based on the size o
     8. Display "It takes ", 'result', " and ", 'trans_time_in_seconds', " seconds to send this file"
     9. End
 #### FlowChart
+
+```mermaid
+graph TD
+A([Start]) --> B[/"Enter the size of the data in MegaBytes(MB): "/];
+B --> C["Calculate size_in_bytes, and trans_time_in_seconds"];
+C --> E{"While
+trans_time_in_seconds >= 60"};
+E --> |True|F{"trans_time_in_seconds >= 86400"};
+F --> |True|G["Append days to result
+Set trans_time_in_seconds to trans_time_in_seconds % 86400
+"];
+F --> |False|H{"trans_time_in_seconds >= 3600"};
+H --> |True|I["Append hours to result
+Set trans_time_in_seconds to trans_time_in_seconds % 3600
+"];
+H --> |False|J["Append minutes to result
+Set trans_time_in_seconds to trans_time_in_seconds % 60
+"];
+E --> |False|K([End While]);
+K --> L[/"Display Result"/];
+L --> M([End]);
+```
