@@ -18,5 +18,5 @@
 ```mermaid
 graph TD;
 A([Start]) --> B[/Enter a letter/];
-B --> C{Check if islower(letter)};
+B[/Enter a letter/]--> C{Check if islower(letter)};
 
