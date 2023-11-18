@@ -9,16 +9,26 @@
    1. start
    2. Prompt user for input: "Enter a letter: " 
    3.  Read user input and store it in the variable letter
-   4.  If islower(letter) is true: Display "Uppercase equivalent: " followed by the uppercase of the letter
-   5.  Else, if isupper(letter) is true:  Display "Lowercase equivalent: " followed by the lowercase of the letter
-   6.  Else: Display "Invalid input. Please enter a letter."
-   7.  End program
+   4.  check for islower(letter) 
+   5.  If islower(letter) is true: Display "Uppercase equivalent: " followed by the uppercase of the letter. Then num 8
+   6.  Else, if isupper(letter) is true:  Display "Lowercase equivalent: " followed by the lowercase of the letter. Then num 8
+   7.  Else: Display "Invalid input. Please enter a letter." Then num 8
+   8.  End program
 # flowchart
 
 ```mermaid
 graph TD;
-A([Start]) --> B[/Enter a letter/];
-B--> C["hi"]
-
+A([Start]) --> B[/Enter a letter:/];
+B--> C[];
+C --> D{"check for islower(letter)"};
+D -->|True| E["Change the letter to uppercase using  toupper()"];
+E--> F[/'Uppercase equivalent: ' followed by the uppercase of the letter/];
+D-->|False|F{check for isupper(letter)};
+F --> |True|G["Change the letter to lowercase using  tolower()"];
+G -->H[/'Lowercase equivalent:'followed by the lowercase of the letter/];
+F-->|False|I [/Invalid input/];
+I-->([End]);
+G-->([End]);
+E-->([End]);
 
 
