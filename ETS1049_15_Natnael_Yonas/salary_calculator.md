@@ -26,3 +26,12 @@
     17. Display "Net Salary: $", netSalary
     18. Display "Bonus Payment: $", bonusPayment
     19. End program
+# Flowchart
+```mermaid
+graph TD;
+A([Start]) --> B[/Enter employee name:;
+Enter weekly working hours:;
+Enter bonus rate per hour:;
+Enter base salary:;]
+
+
