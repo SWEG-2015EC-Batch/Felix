@@ -25,28 +25,3 @@ B.)Algorithm Design:
   Step 9: Display "Lowercase equivalent: " followed by convertedChar
   Step 10: End
 
-Pseudocode:
-
-Start
-
-Declare inputChar, convertedChar as characters
-
-Display "Enter a letter: "
-Read inputChar
-
-If inputChar is an alphabet letter Then
-    convertedChar = Convert inputChar to uppercase using toupper() function
-    Display "Uppercase equivalent: " + convertedChar
-    
-    convertedChar = Convert inputChar to lowercase using tolower() function
-    Display "Lowercase equivalent: " + convertedChar
-Else
-    Display "Please enter a valid letter."
-End If
-
-End
-
-
-
-
-
