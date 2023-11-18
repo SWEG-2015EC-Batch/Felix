@@ -1,4 +1,5 @@
 A.) Problem Analysis:
+
    The problem requires creating a program that calculates the result of the expression `x^y`, where the values of `x` and `y` are provided by the user. Below is the problem analysis in detail:
 
  Input:
@@ -12,6 +13,7 @@ A.) Problem Analysis:
 
  Output:
    - Display the calculated result of `x^y` to the user.
+     
 B.) Aligorithm Design:
 
 1. **Start**
