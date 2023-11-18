@@ -23,13 +23,10 @@ B.) Aligorithm Design:
 7. Display the calculated result of `x^y` to the user.
 8. **End**
 
- Example:
-
-Consider an example using the problem analysis:
-
-- **Input:
-  - User inputs x = 2
-  - User inputs y = 3
-
-- **Output:**
-  - The result of the expression with x = 2 and y = 3 is 8
+#Flowchart
+graph TD;
+A([Start]) --> B[/"Enter the value of x,
+Enter the value of y"/];
+B--> D["result = pow(x, y)"];
+D--> E["'Display' x, 'raised to the power of ', y, 'is'  result"];
+E--> F([End]);
