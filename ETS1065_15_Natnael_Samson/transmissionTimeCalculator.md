@@ -18,4 +18,15 @@ The program displays the time required to transmit the file in seconds.
 4. Calculate transmissionTime using the formula: transmissionTime = fileSizeInCharacters / transmissionRate
 5. Display "Time required to transmit the file: ", transmissionTime, " seconds"
 6. End program
-                                              
+                                              flowcahrt
+   ```mermaid
+   flowchart TD;
+  A([Start]) --> B["Assign 960 to transmissionRate"];
+  B --> C["Initialize fileSizeInBytes to 0"];
+  C --> D["Print 'Enter the file size in bytes: '"];
+  D -->|Input| E("fileSizeInBytes");
+  E --> F["Assign fileSizeInCharacters = fileSizeInBytes"];
+  F --> G["Calculate transmissionTime = fileSizeInCharacters / transmissionRate"];
+  G --> H["Print 'Time required to transmit the file: ' + transmissionTime + ' seconds'"];
+  H --> I([End]);
+ ```
