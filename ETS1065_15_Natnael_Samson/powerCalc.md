@@ -20,4 +20,15 @@ The program displays the result of the calculation, showing x raised to the powe
 5. Calculate result using the formula: result = pow(x, y)
 6. Display x, " raised to the power of ", y, " is ", and the calculated result
 7. End program
-                                 
+                                Flowcahrt
+```mermaid
+        flowchart TD;
+  A([Start]) --> B["Print 'Enter the value of x: '"];
+  B -->|Input| C("x");
+  C --> D["Print 'Enter the value of y: '"];
+  D -->|Input| E("y");
+  E --> F["Initialize result to 0"];
+  F --> G["result = pow(x, y)"];
+  G --> H["Print 'x raised to the power of y is ' + result"];
+  H --> I([End]);
+```
