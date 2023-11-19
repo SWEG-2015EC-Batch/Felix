@@ -19,7 +19,7 @@ The program displays the time required to transmit the file in seconds.
 5. Display "Time required to transmit the file: ", transmissionTime, " seconds"
 6. End program
                                               flowcahrt
-   ```mermaid
+```mermaid
    flowchart TD;
   A([Start]) --> B["Assign 960 to transmissionRate"];
   B --> C["Initialize fileSizeInBytes to 0"];
@@ -29,4 +29,4 @@ The program displays the time required to transmit the file in seconds.
   F --> G["Calculate transmissionTime = fileSizeInCharacters / transmissionRate"];
   G --> H["Print 'Time required to transmit the file: ' + transmissionTime + ' seconds'"];
   H --> I([End]);
- ```
+```
