@@ -37,7 +37,9 @@ The program displays the employee's name, gross salary, net salary, and bonus pa
 17. Display "Bonus Payment: $", bonusPayment
 18. End program
                                       flowchart
-    ```mermaid
+    
+```mermaid
+
     flowchart TD;
   A([Start]) --> B["Print 'Enter employee name: '"];
   B -->|Input| C("employeeName");
