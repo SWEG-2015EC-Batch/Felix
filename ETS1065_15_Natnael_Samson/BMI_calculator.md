@@ -31,7 +31,7 @@ The program displays the calculated Body Mass Index.
   
   B --> C["Print '==========================='"];
   
-  C --> D["Print 'Please enter your weight in kilograms: '"];
+  C --> D[/Print 'Please enter your weight in kilograms: '/];
   
   D --> E["Input body_weight"];
   
