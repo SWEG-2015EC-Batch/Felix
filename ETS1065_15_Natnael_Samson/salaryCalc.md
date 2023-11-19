@@ -36,4 +36,25 @@ The program displays the employee's name, gross salary, net salary, and bonus pa
 16. Display "Net Salary: $", netSalary
 17. Display "Bonus Payment: $", bonusPayment
 18. End program
-                                      
+                                      flowchart
+    ```mermaid
+    flowchart TD;
+  A([Start]) --> B["Print 'Enter employee name: '"];
+  B -->|Input| C("employeeName");
+  C --> D["Print 'Enter weekly working hours: '"];
+  D -->|Input| E("weeklyHours");
+  E --> F["Print 'Enter bonus rate per hour: '"];
+  F -->|Input| G("bonusRate");
+  G --> H["Print 'Enter base salary: '"];
+  H -->|Input| I("baseSalary");
+  I --> J["Calculate grossSalary = baseSalary + (weeklyHours * bonusRate)"];
+  J --> K["Calculate pension = 0.05 * grossSalary"];
+  K --> L["Calculate tax = 0.15 * grossSalary"];
+  L --> M["Calculate netSalary = grossSalary - pension - tax"];
+  M --> N["Calculate bonusPayment = weeklyHours * bonusRate"];
+  N --> O["Print '\nEmployee Name: ' + employeeName"];
+  O --> P["Print 'Gross Salary: $' + grossSalary"];
+  P --> Q["Print 'Net Salary: $' + netSalary"];
+  Q --> R["Print 'Bonus Payment: $' + bonusPayment"];
+  R --> S([End]);
+```                     
