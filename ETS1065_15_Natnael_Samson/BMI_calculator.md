@@ -24,6 +24,7 @@ The program displays the calculated Body Mass Index.
 9. End program
 
                       #Flow chart
+```mermaid
    flowchart TD;
    
   A([Start]) --> B["Print 'BMI Calculator'"];
@@ -45,6 +46,6 @@ The program displays the calculated Body Mass Index.
   I --> J["Print 'Your body mass index is ' + BMI"];
   
   J --> K([End]);
-  
+```
 
                      
