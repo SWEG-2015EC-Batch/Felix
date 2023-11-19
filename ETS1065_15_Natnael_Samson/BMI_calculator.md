@@ -35,7 +35,7 @@ The program displays the calculated Body Mass Index.
   
   D --> E["Input body_weight"];
   
-  E --> F["Print 'Please enter your height in meters: '"];
+  E --> F[/Print 'Please enter your height in meters: '/];
   
   F --> G["Input height"];
   
@@ -43,7 +43,7 @@ The program displays the calculated Body Mass Index.
   
   H --> I["BMI = body_weight / (height * height)"];
   
-  I --> J["Print 'Your body mass index is ' + BMI"];
+  I --> J[/Print 'Your body mass index is '  BMI/];
   
   J --> K([End]);
 ```
