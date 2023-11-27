@@ -37,7 +37,7 @@ Output: The program displays the employee's name, gross salary, net salary, and 
 14 Display the employee's name, gross salary, net salary, and bonus payment to the user
 
 # flowchart
-```meramid
+```mermaid
 graph TD;
 A([Start]) --> B[/"Enter employee name:
 Enter weekly working hours:
@@ -52,5 +52,7 @@ C--> D[/"Display 'Employee Name: ', employeeName
  Display 'Gross Salary: $', grossSalary
  Display 'Net Salary: $', netSalary
  Display 'Bonus Payment: $', bonusPayment"/]
+
+
 
 
