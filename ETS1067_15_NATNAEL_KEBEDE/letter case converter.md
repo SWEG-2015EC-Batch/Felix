@@ -23,3 +23,23 @@ Output: The program displays either the uppercase equivalent, lowercase equivale
 7 Else: Display "Invalid input. Please enter a letter."
 
 8 End program
+
+# flowchart
+```mermaid
+graph TD;
+A([Start]) --> B[/Enter a letter:/];
+B --> C{"check for islower(letter)"};
+C --> |If true|D["Change the letter to uppercase using toupper()"];
+D--> E[/"Print 'Uppercase equivalent: ' followed by the uppercase of the letter"/];
+C-->|If false| F{"check for isupper(letter)"};
+F --> |If true|G["Change the letter to lowercase using tolower()"];
+G -->H[/"Print 'Lowercase equivalent:'followed by the lowercase of the letter"/];
+F-->|If false|I[/Invalid input/]
+I-->J([End]);
+E-->J([End]);
+H-->J([End]);
+
+
+
+
+
