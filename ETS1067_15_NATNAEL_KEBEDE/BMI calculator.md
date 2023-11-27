@@ -1,4 +1,4 @@
-Problem Analysis:
+# Problem Analysis:
 
 Inputs: The program takes two inputs: height (in meters) and weight (in kilograms) from the user.
 
@@ -6,7 +6,7 @@ Processing: It calculates the Body Mass Index (BMI) using the formula BMI = Weig
 
 Output: The program displays the calculated BMI to the user.
 
-Algorithm Design:
+# Algorithm Design:
 
 1 Input: Prompt the user to enter their height in meters.
 
@@ -21,3 +21,13 @@ Algorithm Design:
 6 BMI= weight/(Height×Height)
 
 7 ​Display the calculated BMI to the user.
+
+# flowchart
+
+flowchart TD;
+A([Start]) --> B[/Enter your height in meters/];
+B --> C[/Enter your weight in kilograms/];
+C --> D["BMI = body_weight / (height * height)"];
+D --> E[/Print 'Your BMI is' BMI/];
+E --> F([End]);
+
