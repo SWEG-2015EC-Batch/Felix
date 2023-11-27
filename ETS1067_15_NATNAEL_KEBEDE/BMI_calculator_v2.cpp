@@ -20,7 +20,7 @@ int main ()
 
 cout << "----------------------------------------"<<endl;
 
-if (Gender == 'f')
+if (Gender == 'f' || 'F')
 {
     if (BMI < 18.5 ) {
         cout << "You are underweight." << endl;
@@ -33,7 +33,7 @@ if (Gender == 'f')
     }                       
     
 }  
-   else if (Gender == 'm')
+   else if (Gender == 'm' || 'M')
 {
    if (BMI < 20.5 ) {
         cout << "You are underweight." << endl;
