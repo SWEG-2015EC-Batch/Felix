@@ -1,5 +1,5 @@
 
-Problem Analysis:
+# Problem Analysis:
 
 Inputs: The program prompts the user for two inputs: tank capacity (in gallons) and miles per gallon the automobile can travel.
 
@@ -7,7 +7,7 @@ Processing: It multiplies the tank capacity by the miles per gallon to calculate
 
 Output: The program displays the calculated miles without refueling to the user.
 
-Algorithm Design:
+# Algorithm Design:
 
 1 Input: Ask the user to input the capacity of the fuel tank in gallons.
 
@@ -24,4 +24,14 @@ Algorithm Design:
 7 Miles without Refueling=Tank Capacity×Miles per Gallon
 
 8 Display the calculated miles without refueling to the user.
+
+# flowchart
+
+graph TD;
+A([Start]) --> B[/"Enter the capacity of the fuel tank in gallon:,
+Enter the miles per gallon your automobile can be driven:"/];
+B --> D[miles with out refueling = fuelCapacity * milesPerGallon];
+D --> E[/'The number of miles your automobiles can be driven without refuling is' miles with out refueling/];
+E --> F([End]);
+
 
