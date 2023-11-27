@@ -24,6 +24,7 @@ Output: The program displays the calculated BMI to the user.
 
 # flowchart
 
+```mermaid
 flowchart TD;
 A([Start]) --> B[/Enter your height in meters/];
 B --> C[/Enter your weight in kilograms/];
