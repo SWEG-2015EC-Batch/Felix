@@ -1,4 +1,4 @@
-Problem Analysis:
+# Problem Analysis:
 
 Inputs: The program collects four inputs: employee name, weekly working hours, bonus rate per hour, and base salary.
 
@@ -6,7 +6,7 @@ Processing: It calculates the gross salary, pension deduction (5% of gross salar
 
 Output: The program displays the employee's name, gross salary, net salary, and bonus payment.
 
-Algorithm Design:
+# Algorithm Design:
 
 1 Input: Prompt the user to enter the employee's name.
 
@@ -35,3 +35,22 @@ Algorithm Design:
 13 Calculate the bonus payment using the formula: Bonus Payment=Weekly Hours×Bonus Rate
 
 14 Display the employee's name, gross salary, net salary, and bonus payment to the user
+
+# flowchart
+```meramid
+graph TD;
+A([Start]) --> B[/"Enter employee name:
+Enter weekly working hours:
+Enter bonus rate per hour:
+Enter base salary:"/];
+B--> C["Calculate  grossSalary = baseSalary + (weeklyHours * bonusRate),
+Calculate pension = 0.05 * grossSalary,
+Calculate tax = 0.15 * grossSalary,
+Calculate  netSalary = grossSalary - pension - tax,
+Calculate bonusPayment = weeklyHours * bonusRate"];
+C--> D[/"Display 'Employee Name: ', employeeName
+ Display 'Gross Salary: $', grossSalary
+ Display 'Net Salary: $', netSalary
+ Display 'Bonus Payment: $', bonusPayment"/]
+
+
