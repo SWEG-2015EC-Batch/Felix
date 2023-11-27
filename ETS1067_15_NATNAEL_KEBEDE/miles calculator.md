@@ -26,7 +26,7 @@ Output: The program displays the calculated miles without refueling to the user.
 8 Display the calculated miles without refueling to the user.
 
 # flowchart
-
+```mermaid
 graph TD;
 A([Start]) --> B[/"Enter the capacity of the fuel tank in gallon:,
 Enter the miles per gallon your automobile can be driven:"/];
