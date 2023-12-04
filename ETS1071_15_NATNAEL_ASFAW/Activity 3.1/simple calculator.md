@@ -1,9 +1,14 @@
-```mermaid
-Problem analysis
-```
+**Problem analysis**
 **Input**
+Two numbers you want to be calculate num1,num2
+The type of operator
+**Process**
+Sign identification
+Arithmetic operation
+**Output**
+Sum or difference or product or quotient
 
-Pseudocode:
+**Pseudocode:**
 1. Start
 2. Display "Enter the operation space separated (a + b or a - b): "
 3. Read 'num1', 'sign', 'num2' from the user
