@@ -33,3 +33,10 @@ Output
 7. Read 'status' from the user
 8. If 'status' is not equal to 0, go back to step 2
 9. End
+
+# flowchart
+```mermaid
+flowchart TD;
+a[(start)]-->b[/declaration/];
+b-->c[do];
+c-->d[/Enter num1,operator,num2/];
