@@ -1,3 +1,4 @@
 ```mermaid
 Problem analysis
-```
+``
+**Input**
