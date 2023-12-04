@@ -1,11 +1,19 @@
 **Problem analysis**
+
 **Input**
+
 Two numbers you want to be calculate num1,num2
+
 The type of operator
+
 **Process**
+
 Sign identification
+
 Arithmetic operation
+
 **Output**
+
 Sum or difference or product or quotient
 
 **Pseudocode:**
