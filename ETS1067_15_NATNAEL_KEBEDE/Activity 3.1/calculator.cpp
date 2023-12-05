@@ -1,4 +1,4 @@
-//this is basic calculator that operate the basic arthimethic operations
+//this is simple calculator that operate the basic arthimethic operations
 #include <iostream>
 using namespace std;
 int main ()
