@@ -26,8 +26,9 @@
 
 graph TB
   start(start) --> do[do]
-  do --> InputOperation[/Input num1, sign, num2/]
-  InputOperation --> SwitchOperator{"Switch(sign)"}
+  do --> InputNumbers[/Input num1, num2/]
+  InputNumbers --> InputOperator[/Input sign of operation/]
+  InputOperator --> SwitchOperator{"Switch(sign)"}
   SwitchOperator --> PlusCase[Case '+': result = num1 + num2]
   PlusCase -- True --> DisplayResult[Display num1, sign, num2, '=', result]
   PlusCase -- False --> MinusCase[Case '-': result = num1 - num2]
@@ -43,6 +44,6 @@ graph TB
   status --> whileDo{"While (status != 0)"}
   whileDo -- True --> do
   whileDo -- False --> num(End)
-  DefaultCase --> num
+  DefaultCase --> InputOperator
 
 ```
