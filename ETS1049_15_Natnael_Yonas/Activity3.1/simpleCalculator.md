@@ -9,8 +9,9 @@ Output: Sum or product or difference or quotient or module
 graph TD;
 A([Start])-->B[Incialization];
 B--> C[Do];
-C--> D[/Enter num1,num2,operator/];
-D--> E[Switch Operator];
+C--> D[/Enter num1,num2/];
+D--> Z[/Enter operator/];
+Z-->E[Switch Operator];
 E--> F{case'+'};
 F-->|True|G[num1+num2];
 F-->|False|H{case'-'};
@@ -23,7 +24,7 @@ L-->|False|N{case'%'};
 N-->|True|O[num1%num2];
 N-->|False|P{Default};
 P--> |True|Q[/You insert the wrong operator/];
-Q-->E
+Q-->Z;
 G-->U[/Sum or product or difference or quotient or module/];
 I-->U;
 K-->U;
