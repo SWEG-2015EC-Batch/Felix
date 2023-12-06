@@ -24,19 +24,19 @@ int main()
         {
             if (isupper(C))
             {
-             cout<<"The character is vowel uppercase"<<endl;   
+             cout<<"The character is vowel uppercase letter"<<endl;   
             }
             else{
-                cout<<"The character is vowel lowercase"<<endl;
+                cout<<"The character is vowel lowercase letter"<<endl;
             }
         }
         else{
             if (isupper(C))
             {
-                cout<<"The character is consonant uppercase"<<endl;
+                cout<<"The character is consonant uppercase letter"<<endl;
             }
             else{
-                cout<<"The character is consonant lowercase"<<endl;
+                cout<<"The character is consonant lowercase letter"<<endl;
             }
         }
     }
