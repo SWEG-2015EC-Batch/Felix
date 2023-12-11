@@ -19,7 +19,7 @@ graph TB
   start(start) --> get_num[/Read a number from the user/]
   get_num --> While_operation{"while num != 0"}
   While_operation -- True --> Internal_Operation[Divide num by 10 and increase counter by 1]
-  Internal_Operation --> Show_result[/The number of digits is: counter/]
-  While_operation -- False --> Final(End)
-  Show_result --> Final
+  Internal_Operation --> While_operation
+  While_operation -- False -->  Show_result[/The number of digits is: counter/]
+  Show_result --> Final(End)
 ```
