@@ -24,15 +24,15 @@
 graph TB
 start(Start) --> num[/Get number from user/]
 num --> productofnums[set product to 1]
-productofnums --> Operation{"Num > 0"}
+productofnums --> Operation{"While Num > 0"}
 Operation -- True --> CurrentNum[Set Current to num % 10]
 CurrentNum --> IsEven{"Current is even"}
 IsEven -- True --> Multiply[Multiply product by current]
 IsEven -- False --> ReduceNum[Divide num by 10]
 Multiply --> ReduceNum
-ReduceNum --> CheckProduct{"Product > 1"}
+ReduceNum --> Operation
+Operation -- False --> CheckProduct{"Product > 1"}
 CheckProduct -- True --> ProductEven[/Product of even digits is Product/]
 CheckProduct -- False --> NoEven[/No even digit/]
 ProductEven --> Final(End)
 NoEven --> Final
-Operation -- False -->Final
