@@ -20,7 +20,7 @@ The program provides information about the input character based on the followin
 3. Even or odd number (if a digit).
 
                     Algorithm Design (Pseudocode)
-0. Start
+
 1. Display "Enter a character: " message to prompt the user for input.
 2. Read the input character and store it in the variable ch.
 
