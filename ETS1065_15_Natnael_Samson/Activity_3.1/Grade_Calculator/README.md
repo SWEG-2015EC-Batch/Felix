@@ -15,10 +15,12 @@ The program displays the calculated lettered grade based on the total score.
 3. Declare variables: test, quiz, project, assignment, final, total
 4. Repeat the following steps for each category of results (test, quiz, project, assignment, final):
    a. Prompt user for input: "Please enter your [category] results out of [maximum value]: "
+
    b. Read user input and store it in the corresponding variable (e.g., test)
+
    c. Validate input: If input is greater than the specified maximum value, display an error message and repeat step b
-5. Calculate total = test + quiz + project + assignment + final
-6. Determine lettered grade based on total:
+6. Calculate total = test + quiz + project + assignment + final
+7. Determine lettered grade based on total:
    a. If total >= 90, display "Your grade is: A+"
    
    b. Else if total >= 80, display "Your grade is: A"
