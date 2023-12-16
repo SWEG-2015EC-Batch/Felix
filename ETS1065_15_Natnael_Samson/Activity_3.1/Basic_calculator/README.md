@@ -1,52 +1,50 @@
-**Problem Analysis**
+                    Analysis
 
 Input:
-- num_1 (integer): The first number entered by the user.
-- num_2 (integer): The second number entered by the user.
-- operate (character): The operator (+, -, *, /, r) selected by the user.
-- status (integer): A flag to determine whether the user wants to continue or quit (0 to quit, any other number to continue).
+The program prompts the user for two numbers and the type of arithmetic operation they want to perform. It also allows the user to calculate the remainder using the 'r' or 'R' option. The program prompts the user to enter 0 to quit or any other number to continue.
 
 Process:
-1. Display a welcome message and instructions to the user.
-2. Inside a do-while loop, prompt the user to enter two numbers (num_1 and num_2).
-3. Prompt the user to enter the type of operation they want (operate).
-4. Use a switch statement to perform the selected operation based on the value of operate.
-   - If the user selects '+', add num_1 and num_2.
-   - If the user selects '-', subtract num_1 from num_2.
-   - If the user selects '*', multiply num_1 and num_2.
-   - If the user selects '/', divide num_1 by num_2.
-   - If the user selects 'r' or 'R', calculate the remainder when num_1 is divided by num_2.
-   - If an unknown operator is entered, display an error message and go back to the label loop.
-5. Display the result of the operation.
-6. Ask the user if they want to continue (status).
-   - If the user enters 0, exit the loop.
-   - If the user enters any other number, continue the loop.
-7. Continue the loop until the user decides to quit.
+The program performs basic arithmetic operations based on the user's input, including addition, subtraction, multiplication, division, and remainder calculation. It uses a do-while loop to allow the user to perform multiple calculations.
 
 Output:
-- Display the result of the arithmetic operation.
-- Ask the user if they want to continue.
+The program displays the result of the arithmetic operation and prompts the user to enter 0 to quit or any other number to continue.
 
-**Algorithm: Basic Calculator**
+                  Algorithm Design (Pseudocode)
+1. Display "Calculator" title
+2. Display "========================================================" separator
+3. Declare variables: num_1, num_2, result, status
+4. Repeat the following steps in a do-while loop:
+   a. Prompt user for input: "Please enter the first number: "
 
-1. Display a welcome message and instructions to the user.
-2. Initialize num_1, num_2, result, operate, and status variables.
-3. Start a do-while loop:
-   a. Prompt the user to enter the first number (num_1).
-   b. Prompt the user to enter the second number (num_2).
-   c. Label: Prompt the user to enter the type of operation (+, -, *, /) or (r for remainder).
-   d. Switch on operate:
-      - Case '+': result = num_1 + num_2.
-      - Case '-': result = num_1 - num_2.
-      - Case '*': result = num_1 * num_2.
-      - Case '/': result = num_1 / num_2.
-      - Case 'r' or 'R': result = num_1 % num_2.
-      - Default: Display an error message and go to the label.
-   e. Display the result of the operation.
-   f. Ask the user if they want to continue (status).
-      - If status is 0, exit the loop.
-      - If status is any other number, continue the loop.
-4. End the program.
+   b. Read user input and store it in the variable num_1
 
+   c. Prompt user for input: "Please enter the second number: "
 
+   d. Read user input and store it in the variable num_2
 
+   e. Prompt user for input: "Enter the type of operation you want, (+ , - , * , / ) or (r) if you want to calculate remainder: "
+
+   f. Read user input and store it in the variable operate
+
+   g. Use a switch statement to perform the corresponding arithmetic operation based on the value of operate:
+
+      - Case '+': result = num_1 + num_2;
+
+      - Case '-': result = num_1 - num_2;
+
+      - Case '*': result = num_1 * num_2;
+
+      - Case '/': result = num_1 / num_2;
+
+      - Case 'R' or 'r': result = static_cast<int>(num_1) % static_cast<int>(num_2);
+
+      - Default: Display an error message and go to step e (label: loop)
+   
+   h. Display the arithmetic expression and result: num_1 operate num_2 = result
+
+   i. Prompt user for input: "Please enter 0 to quit or any other number to continue: "
+
+   j. Read user input and store it in the variable status
+
+   k. Continue the loop if status is not equal to 0
+6. End program
