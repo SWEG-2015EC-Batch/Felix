@@ -20,12 +20,19 @@ The program displays the calculated lettered grade based on the total score.
 5. Calculate total = test + quiz + project + assignment + final
 6. Determine lettered grade based on total:
    a. If total >= 90, display "Your grade is: A+"
+   
    b. Else if total >= 80, display "Your grade is: A"
+
    c. Else if total >= 75, display "Your grade is: B+"
+
    d. Else if total >= 60, display "Your grade is: B"
+
    e. Else if total >= 55, display "Your grade is: C+"
+
    f. Else if total >= 45, display "Your grade is: C"
+
    g. Else if total >= 30, display "Your grade is: D"
+
    h. Else, display "Your grade is: F"
-7. Display "Thank you for using the program."
-8. End program
+8. Display "Thank you for using the program."
+9. End program
