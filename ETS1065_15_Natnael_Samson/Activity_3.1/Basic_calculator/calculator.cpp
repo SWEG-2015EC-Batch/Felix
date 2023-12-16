@@ -23,7 +23,7 @@ int main() {
                 break;
             case '/': result = num_1 / num_2;                
                 break;
-            case 'R'|| 'r': result = num_1 % num_2;               
+            case 'R': case'r': result = num_1 % num_2;               
                 break;
             default: cout << "unknown operator: " << operate << '\n';
                 goto loop;
