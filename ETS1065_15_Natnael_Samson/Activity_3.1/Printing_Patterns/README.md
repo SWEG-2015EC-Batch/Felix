@@ -36,53 +36,102 @@ High-Level Design:
 2. Initialize variables: row, column, size, menu, status, letter = 'a', num_matrix = 1.
 3. Start a do-while loop:
    a. Display welcome message.
+
    b. Begin a nested do-while loop for pattern choices:
       i. Display a menu of pattern choices.
+
       ii. Prompt user: "Choose a pattern from the above: ".
+
       iii. Read user input into the variable menu.
+
       iv. Validate user input: If invalid, display an error message.
+
    c. End the nested do-while loop when a valid choice is made.
+
    d. Use a switch statement for selected pattern logic:
+
       i. Cases 1 to 14:
+
          a. Case 1:
+
             i. Prompt user for column and row inputs.
+
             ii. Loop over rows and columns, displaying '*'.
+
          b. Case 2:
+
             i. Prompt user for column and row inputs.
+
             ii. Loop over rows and columns, displaying '*' for borders and spaces for the interior.
+
          c. Case 3:
+
             i. Prompt user for row input.
+
             ii. Loop over rows, displaying an increasing number of '*' in each row.
+
          d. Case 4:
+
             i. Prompt user for size input.
+
             ii. Loop over rows, displaying '*' for borders and spaces for the interior.
+
          e. Case 5:
+
             i. Prompt user for row input.
+
             ii. Loop over rows, displaying a decreasing number of '*' in each row.
+
          f. Case 6:
+
             i. Prompt user for size input.
+
             ii. Loop over rows, displaying '*' for borders and spaces for the interior.
+
          g. Case 7:
+
             i. Loop over rows and columns, displaying numbers from 1 to 5 in a matrix.
+
          h. Case 8:
+
             i. Loop over rows, displaying numbers from 1 to the current row in a right-angled triangle.
+
          j. Case 9:
+
             i. Prompt user for size input.
+
             ii. Loop over rows and columns, displaying '*' in a pyramid shape.
+
          k. Case 10:
+
             i. Prompt user for size input.
+
             ii. Loop over rows and columns, displaying '*' for borders and spaces for the interior.
+
          l. Case 11:
+
             i. Prompt user for size input.
+
             ii. Loop over rows and columns, displaying '*' in an inverted pyramid shape.
+
          m. Case 12:
+
             i. Loop over rows and columns, displaying letters 'a' to 'e' in a matrix.
+
          n. Case 13:
+
             i. Loop over rows and columns, displaying letters 'a' to 'x' in a matrix.
+
          o. Case 14:
-            i. Prompt user for column and row inputs.
-            ii. Loop over rows and columns, displaying numbers starting from 10 in a matrix.
+
+             i. Prompt user for column and row inputs.
+
+             ii. Loop over rows and columns, displaying numbers starting from 10 in a matrix.
+
    e. Prompt user to continue or quit:
+
       i. Prompt: "Please enter 0 to quit or any other number to continue: ".
+
       ii. Read user input into the variable status.
+
    f. Continue the outer do-while loop if status is not 0.
