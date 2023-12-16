@@ -130,8 +130,8 @@ High-Level Design:
 
    e. Prompt user to continue or quit:
 
-      i. Prompt: "Please enter 0 to quit or any other number to continue: ".
+        i. Prompt: "Please enter 0 to quit or any other number to continue: ".
 
-      ii. Read user input into the variable status.
+        ii. Read user input into the variable status.
 
    f. Continue the outer do-while loop if status is not 0.
