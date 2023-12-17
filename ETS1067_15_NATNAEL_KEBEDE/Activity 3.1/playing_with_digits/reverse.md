@@ -13,4 +13,20 @@
 12. Output reverse
 # flowchart
 ```mermaid
-flowchart TD
+flowchart TD;
+A([start])-->b[/read num/];
+b-->c[/intialize copynum = num/];
+c-->d{while num > 0};
+d-->|true|e[temp = num%10, reverse = reverse*10 + 10 , num = num/10];
+e-->d
+d-->|false|h[/display reverse/];
+h-->l([end])
+
+
+
+
+
+
+
+ 
+
