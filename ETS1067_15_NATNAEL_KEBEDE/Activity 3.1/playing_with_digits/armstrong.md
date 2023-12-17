@@ -35,7 +35,7 @@ Resetting --> Adding{"While num > 0"}
 Adding -- True --> Addingsum[current = num % 10, sum += current ^ counter, num = num / 10]
 AddingArmstrong --> Adding
 Adding -- False --> Issum{"sum == Original_num"}
-IsArmstrong -- True --> Armstrong[/It is Armstrong/]
-IsArmstrong -- False --> Not_Armstrong[/It is not Armstrong/]
+Issum -- True --> Armstrong[/It is Armstrong/]
+Issum -- False --> Not_Armstrong[/It is not Armstrong/]
 Armstrong --> Final(End)
 Not_Armstrong --> Final
