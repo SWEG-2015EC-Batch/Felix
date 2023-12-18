@@ -49,8 +49,6 @@ Calculate pension = 0.05 * grossSalary,
 Calculate tax = 0.15 * grossSalary,
 Calculate  netSalary = grossSalary - pension - tax,
 Calculate bonusPayment = weeklyHours * bonusRate"];
-C--> D[/"
- Display 'Gross Salary: $', grossSalary
- Display 'Net Salary: $', netSalary"/];
-E([End]);
+C--> D[/" Display 'Net Salary: $', netSalary"/];
+-->E([End]);
 ```
