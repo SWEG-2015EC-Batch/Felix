@@ -29,6 +29,7 @@ N--> Z[OverTimePayment = overTimeBonusRate * overWorkedHours ]
 Z-->P["net Salary = (gross Salary – pension – income tax) + Overtime payment"];
 M--> |False|O["net Salary = gross Salary – pension – income taxt"];
 P-->Q[/Net salary/];
+D-->Q;
 O-->Q;
 F-->Q;
 T-->Q;
