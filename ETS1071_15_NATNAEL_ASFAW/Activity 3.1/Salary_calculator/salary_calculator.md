@@ -35,3 +35,21 @@ else
 Output netSalary
 
 End
+**Flowchart**
+```mermaid
+graph TD;
+
+A([Start]) --> B[/"
+Enter weekly working hours:
+Enter bonus rate per hour:
+Enter base salary:"/];
+B--> C["Calculate  grossSalary = baseSalary + (weeklyHours * bonusRate),
+Calculate pension = 0.05 * grossSalary,
+Calculate tax = 0.15 * grossSalary,
+Calculate  netSalary = grossSalary - pension - tax,
+Calculate bonusPayment = weeklyHours * bonusRate"];
+C--> D[/"Display , employeeName
+ Display 'Gross Salary: $', grossSalary
+ Display 'Net Salary: $', netSalary
+ Display 'Bonus Payment: $', bonusPayment"/]
+```
