@@ -85,4 +85,22 @@ The program displays the result of the chosen operation.
    
    l. Default: Display "Invalid choice."
 6. End program
+   **flowchart**
+```mermaid
+   graph TD
+start(Start) --> userInput[/Read a number/]
+userInput --> Original_Init[Original_num = num]
+Original_Init --> Counting{"While num > 0"}
+Counting -- True --> Digits[Counter++, num = num / 10]
+Digits --> Counting
+Counting -- False --> Resetting[Set num = original_num]
+Resetting --> Adding{"While num > 0"}
+Adding -- True --> AddingArmstrong[current = num % 10, armstrong += current ^ counter, num = num / 10]
+AddingArmstrong --> Adding
+Adding -- False --> IsArmstrong{"Armstrong == Original_num"}
+IsArmstrong -- True --> Armstrong[/It is Armstrong/]
+IsArmstrong -- False --> Not_Armstrong[/It is not Armstrong/]
+Armstrong --> Final(End)
+Not_Armstrong --> Final
+```
 
