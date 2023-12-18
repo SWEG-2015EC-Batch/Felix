@@ -32,3 +32,12 @@ Sum or difference or product or quotient
 7. Read 'status' from the user
 8. If 'status' is not equal to 0, go back to step 2
 9. End
+
+    **flowchart**
+   flowchart TD;
+A([Start]) --> B[/Enter your weight in kilograms/];
+B --> C[/Enter your height in meters/];
+C --> D["BMI = body_weight / (height * height)"];
+D --> E[/Print 'Your BMI is' BMI/];
+E --> F([End]);
+
