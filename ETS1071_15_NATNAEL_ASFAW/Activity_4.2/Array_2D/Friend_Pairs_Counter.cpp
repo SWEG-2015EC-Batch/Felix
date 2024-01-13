@@ -2,27 +2,41 @@
 using namespace std;
 
 int main() {
-    const int SIZE = 5;
-    bool friendships[SIZE][SIZE] = {
-        {false, true,  false, true,  true },
-        {true,  false, true,  false, true },
-        {false, true,  false, false, false},
-        {true,  false, false, false, true },
-        {true,  true,  false, true,  false}
+    const int numPeople = 5;  
+
+    
+    bool friends[numPeople][numPeople] = {
+        {false, true,  false, true,  false},
+        {true,  false, true,  true,  false},
+        {false, true,  false, false, true },
+        {true,  true,  false, false, true },
+        {false, false, true,  true,  false}
     };
 
-    int numFriendPairs = 0;
+   
+    cout << "Friendship Matrix:" << endl;
+    for (int i = 0; i < numPeople; ++i) {
+        for (int j = 0; j < numPeople; ++j) {
+            if (friends[i][j]) {
+                cout << "* ";
+            } else {
+                cout << "  ";  
+            }
+        }
+        cout << endl;
+    }
 
-    // Count pairs of friends
-    for (int i = 0; i < SIZE; ++i) {
-        for (int j = i + 1; j < SIZE; ++j) {
-            if (friendships[i][j]) {
-                numFriendPairs++;
+    int friendPairsCount = 0;
+    for (int i = 0; i < numPeople; ++i) {
+        for (int j = i + 1; j < numPeople; ++j) {
+            if (friends[i][j]) {
+                cout << "Friends: Person " << i + 1 << " and Person " << j + 1 << endl;
+                friendPairsCount++;
             }
         }
     }
 
-    cout << "Number of pairs of friends: " << numFriendPairs << endl;
+    cout << "Total number of friend pairs: " << friendPairsCount << endl;
 
     return 0;
 }
