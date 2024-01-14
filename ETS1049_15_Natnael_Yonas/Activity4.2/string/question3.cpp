@@ -4,22 +4,16 @@
 using namespace std;
 
 int main(){
+    string text = "", newtext = "";
 
-    string text = "";
-
-    cout<<"Enter the text: ";
-    getline(cin, text);
-
-    for(int i = 0; i < text.size(); i++){
-        text[i] = toupper(text[i]);
-    }
-
-    cout<<"Uppercase: "<<text<<endl;
+    cout<<"\nEnter the text: ";
+    getline(cin,text);
 
     for(int i = 0; i < text.size(); i++){
-        text[i] = tolower(text[i]);
+        if(isalpha(text[i])){
+            newtext += text[i];
+        }
     }
-
-    cout<<"Lowercase: "<<text;
+    cout<<"\nText with alphabet characters only: "<<newtext<<endl;
 return 0;
 }
