@@ -35,7 +35,7 @@ int main() {
         cout << endl;
 
         // Line separator
-        cout << setfill('-') << setw(8 * columnWidth) << "-" << setfill(' ') << endl;  // Adjust the multiplier (7) based on the number of columns
+        cout << setfill('-') << setw(8 * columnWidth) << "-" << setfill(' ') << endl;
     }
 
     return 0;
