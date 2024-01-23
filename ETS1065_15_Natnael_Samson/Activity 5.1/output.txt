@@ -1,0 +1,43 @@
+### 1. 
+(random_value) (address_of_V)<br />
+(address_of_V) (address_of_ptr2) <br />
+(address_of_Arr1) (address_of_Arr1) <br />
+(address_of_Arr1[2]) (address_of_ptr1) <br />
+(random_value) (address_of_V) <br />
+(address_of_V) (address_of_ptr2) <br />
+(address_of_Arr2) (address_of_Arr2) <br />
+(address_of_Arr2[2]) (address_of_ptr1)
+### 2.
+58 58 58
+### 3.
+k=4 x=address of k(950) y=address of ptr(3000)<br>
+k=14 <br />
+k=28 <br />
+
+### 4.
+i j ptr pptr <br >
+4 5 10 &i dangling <br >
+5 5 10 &i &ptr <br >
+6 3 10 &i &ptr <br >
+7 7 10 &i &ptr <br >
+8 7 10 &j &ptr <br >
+9 7 9 &j &ptr <br >
+10 7 9 &i &ptr <br >
+11 -2 9 &i &ptr <br >
+
+### 5.
+ 5      address of i <br >
+ 10     address of j <br>
+ 10     address of j after Increments <br >
+ 11     address of j after Increments <br >
+ 11     address of j after Increments <br >
+ 12     address of j <br>
+ 12     address of j 
+
+### 6.
+a[0] : 6<br >a[1] : 5 <br >a[2] : 7 <br >a[3] : 9.8 <br >a[4] : intialized number
+
+### 7.
+10 11 24 13 14 <br >
+20 21 22 30 24 <br >
+30 31 32 33 42
