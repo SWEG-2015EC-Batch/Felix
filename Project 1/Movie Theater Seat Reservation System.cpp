@@ -289,8 +289,9 @@ int main() {
             }
             case 3: {
                 cout << "Enter the name of the patron to search: ";
+                cin.ignore();
                 string searchName;
-                cin >> searchName;
+                getline(cin , searchName);
 
                 bool found = false;
                 for (int i = 0; i < 100; ++i) {
